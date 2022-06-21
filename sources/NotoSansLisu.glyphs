@@ -1,5 +1,5 @@
 {
-.appVersion = "1355";
+.appVersion = "3109";
 copyright = "Copyright 2019 Google Inc. All Rights Reserved. NotoSansLisu.";
 customParameters = (
 {
@@ -67,6 +67,35 @@ uniA4FF
 );
 },
 {
+name = unicodeRanges;
+value = (
+0,
+1,
+5,
+31,
+48
+);
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = codePageRanges;
+value = (
+1252
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -83,37 +112,12 @@ name = vendorID;
 value = GOOG;
 },
 {
-name = unicodeRanges;
-value = (
-0,
-1,
-5,
-31,
-48
-);
-},
-{
 name = trademark;
 value = "Noto is a trademark of Google Inc.";
 },
 {
-name = "Has WWS Names";
-value = 1;
-},
-{
 name = versionString;
 value = "Version 2.101";
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = codePageRanges;
-value = (
-1252
-);
 },
 {
 name = Axes;
@@ -306,13 +310,13 @@ horizontalStems = (
 128,
 131
 );
-iconName = SemiBold;
 id = "77601E91-E279-41C6-B93A-69CD428A66E5";
+name = Bold;
 verticalStems = (
 156,
 161
 );
-weight = Bold;
+weight = SemiBold;
 weightValue = 700;
 xHeight = 536;
 }
@@ -434,7 +438,7 @@ unicode = 00A0;
 },
 {
 glyphname = hyphen;
-lastChange = "2019-11-11 10:36:26 +0000";
+lastChange = "2022-06-21 20:25:44 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -467,8 +471,6 @@ nodes = (
 width = 332;
 }
 );
-leftKerningGroup = hyphen;
-rightKerningGroup = hyphen;
 unicode = 002D;
 },
 {
@@ -4146,10 +4148,6 @@ instances = (
 {
 customParameters = (
 {
-name = weightClass;
-value = 400;
-},
-{
 name = panose;
 value = (
 2,
@@ -4209,10 +4207,6 @@ name = Regular;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 500;
-},
 {
 name = panose;
 value = (
@@ -4276,10 +4270,6 @@ weightClass = Medium;
 {
 customParameters = (
 {
-name = weightClass;
-value = 600;
-},
-{
 name = panose;
 value = (
 2,
@@ -4342,10 +4332,6 @@ weightClass = SemiBold;
 {
 customParameters = (
 {
-name = weightClass;
-value = 700;
-},
-{
 name = panose;
 value = (
 2,
@@ -4404,6 +4390,7 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
+weightClass = Bold;
 }
 );
 manufacturer = "Monotype Imaging Inc.";
