@@ -185,11 +185,11 @@ value = 0;
 },
 {
 name = underlinePosition;
-value = -100;
+value = -120;
 },
 {
 name = underlineThickness;
-value = 50;
+value = 80;
 },
 {
 name = panose;
