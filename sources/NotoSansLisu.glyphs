@@ -1,6 +1,6 @@
 {
 .appVersion = "3109";
-copyright = "Copyright 2019 Google Inc. All Rights Reserved. NotoSansLisu.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)";
 customParameters = (
 {
 name = glyphOrder;
@@ -101,11 +101,11 @@ value = "Designed by Monotype design team.";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
@@ -117,7 +117,7 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = versionString;
-value = "Version 2.101";
+value = "Version 2.102";
 },
 {
 name = Axes;
@@ -311,7 +311,6 @@ horizontalStems = (
 131
 );
 id = "77601E91-E279-41C6-B93A-69CD428A66E5";
-name = Bold;
 verticalStems = (
 156,
 161
@@ -4406,5 +4405,5 @@ OV = "161";
 };
 };
 versionMajor = 2;
-versionMinor = 101;
+versionMinor = 102;
 }
