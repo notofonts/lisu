@@ -6,7 +6,8 @@ includeSubsets:
   name: GF_Latin_Core
 - from: Noto Sans
   ranges:
-    - start: 0x25CC
-      end: 0x25CC
+  - end: 9676
+    start: 9676
+recipeProvider: noto
 sources:
 - NotoSansLisu.glyphs
